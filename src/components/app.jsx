@@ -9,7 +9,7 @@ import Nav from './Nav';
 function App() {
     return (
         <Router>
-            <Nav />
+          <Nav />
                 <Switch>
                     <Route exact path="/">
                         <Homepage />
@@ -22,6 +22,7 @@ function App() {
                     </Route>
                 </Switch>
         </Router>
+        
 
     );
 }
