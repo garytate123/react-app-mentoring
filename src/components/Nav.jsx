@@ -2,20 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Nav() {
-    return <div>
-        <nav>
-            <Link to='/'>
-                <li>Home</li>
-            </Link>
-            <Link to='/Signup'>
-                <li>Signup</li>
-            </Link>
-            <Link to='/Login'>
-                <li>Login</li>
-            </Link>
+    return (
+    <nav className="navbar navbar-expand navbar-light fixed-top">
+        <div className="container">
+            <Link to='/' className="navbar-brand">Online Mentoring App</Link>
+                <div className="collapse navbar-collapse">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <Link to='/' className="nav-link">HOME</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/Signup' className="nav-link">SIGN UP</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/Login' className="nav-link">LOGIN</Link>
+                        </li>
+                    </ul>
+                </div>
+           </div>
         </nav>
-    </div>
-
+       
+    )
 }
 
 export default Nav;

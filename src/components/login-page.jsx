@@ -1,8 +1,11 @@
 import React from 'react';
 
 function Login() {
-    return <div>
-    <h1>Welcome to the Login page!</h1>
+    return <div className="auth-wrapper">
+    <div className="auth-inner">
+      <h1>Welcome to the Login page.</h1>
+      <h2>You are not logged in.</h2>
+    </div>
     </div>
 }
 

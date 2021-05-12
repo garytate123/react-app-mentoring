@@ -1,51 +1,81 @@
-html,
+* {
+  box-sizing: border-box;
+}
+
 body {
+  background-color: #1c8ef9 !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+}
+
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
   height: 100%;
 }
 
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
 }
 
-/* Sign up page starts here */
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
 }
-.form-signin .checkbox {
-  font-weight: 400;
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
 }
-.form-signin .form-control {
-  position: relative;
-  box-sizing: border-box;
-  height: auto;
-  padding: 10px;
-  font-size: 16px;
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
 }
-.form-signin .form-control:focus {
-  z-index: 2;
+
+.auth-wrapper {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
 }
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+
+form {
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 50px;
+  width: 500px;
+  border-radius: 20px;
 }
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.signup-form-heading {
+  text-align: center;
+  padding-bottom: 4%;
 }
-/* Sign up page ends here */
+label {
+  font-weight: 700;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
