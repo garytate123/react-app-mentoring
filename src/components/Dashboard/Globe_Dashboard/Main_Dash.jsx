@@ -4,7 +4,6 @@ import React from "react";
 
 function Main_Dash() {
     return (  
-<main>
     <div className="main__container">
         <div className="charts">   
             <div className="charts__left">
@@ -54,13 +53,8 @@ function Main_Dash() {
                 </div>
             </div>
         </div>
-        </div>
-        
+        </div>  
     </div>
-</main>
-
-
-
 )}
 
 export default Main_Dash;

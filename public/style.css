@@ -8,6 +8,7 @@ body {
   display: flex;
   font-weight: 400;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 body,
@@ -18,6 +19,7 @@ html,
   width: 100%;
   height: 100%;
 }
+
 .logo {
   width: 50px;
   height: 50px;
@@ -32,18 +34,21 @@ html,
   border-radius: 50%;
   border: 2px solid white;
 }
-.navbar-light {
-  background-color: #ffffff;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-}
 
-.auth-wrapper {
+.home-page-box {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  text-align: left;
+  text-align: center;
+  margin: 50px auto;
 }
-
+.home-page-box-inner{
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+} 
 .auth-inner {
   margin: auto;
   background-color: #ffffff;
@@ -117,13 +122,13 @@ label {
 /* Features pages ends here */
 
 /* Footer Start here */
-footer {
+/* footer {
   background-color: #ffffff;
   align-items: center;
   text-align: center;
   font-size: 25px;
   padding: 2%;
-}
+} */
 
 /* Footer ends here */
 
@@ -162,7 +167,6 @@ body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   
-  
 }
 
 .time_date{
@@ -171,7 +175,6 @@ body {
 /* padding: 1%; */
 }
 
-
 .little-logos{
   color: #0093e9;
   width: 30px;
@@ -179,8 +182,8 @@ body {
 }
 .little-logos-white{
   width: 30px;
-  height: 30px;
-background: white;
+  height: 30px; 
+  background: white;
 }
 
 .create-plus{
@@ -298,30 +301,30 @@ main {
   background: #f3f4f6;
   grid-area: main;
   overflow-y: auto;
+  height: 100vh;
 }
 
 .main__container {
-  padding: 20px 35px 0px;
- 
+  padding: 20px 35px ;
 }
 
 .main__title {
   display: flex;
   align-items: center;
-  
+  padding-left: 2%;
 }
 
 .main__title > img {
   max-height: 100px;
   object-fit: contain;
   margin-right: 5px;
+
 }
 
 
 .main__greeting > h1 {
   font-size: 24px;
   color: #2e4a66;
-  margin-bottom: 5px;
 }
 
 .main__greeting > p {
@@ -334,7 +337,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  padding-top: 0;
+  padding: 0 2%;
 }
 
 .card {
@@ -490,8 +493,8 @@ main {
   padding: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  width: 15%;
-  height: 1200px;
+  width: 22%;
+  height: 100vh;
   float: left;
 }
 

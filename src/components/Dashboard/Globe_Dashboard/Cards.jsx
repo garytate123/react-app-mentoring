@@ -2,7 +2,6 @@ import React from "react";
 
 function Cards() {
     return (
-<main>
     <div className="main__container">
         <div className="main__cards">
             <div className="card">
@@ -38,7 +37,6 @@ function Cards() {
             </div>
         </div>
     </div>
-</main>
     )
 }
 

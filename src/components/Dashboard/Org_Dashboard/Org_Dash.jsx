@@ -9,10 +9,12 @@ function Org_Dash() {
     return (
     <div>
         <Org_SideMenuDash />
-        <Header_Dash />
-        <Welcome_Dash />
-        <Cards />
-        <Main_Dash />
+            <main>
+                <Header_Dash />
+                <Welcome_Dash />
+                <Cards />
+                <Main_Dash />
+            </main>
     </div>
     )};
 

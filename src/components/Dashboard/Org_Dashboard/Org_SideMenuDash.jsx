@@ -8,7 +8,7 @@ function Org_SideMenuDash() {
             <div className="sidebar__title">
                 <div className="sidebar__img">
                     <img src="/images/logo.png" alt="" width="50px" height="50px" />
-                    <h1>Mentoing Online</h1>
+                    <h1>Online Mentoring</h1>
                 </div>
                 <i onclick="closeSidebar()" class="fa fa-times" id="sidebarIcon" aria-hidden="true"></i>
             </div>
@@ -16,7 +16,7 @@ function Org_SideMenuDash() {
             <div className="sidebar__menu">
                 <div class="sidebar__link active_menu_link" aria-hidden="true">
                     <i class="fa fa-home text-yellow "></i>
-                    <a href="/dasshboard/organisation/org-dashboard.html">Dashboard</a>
+                    <a href="Dashboard">Dashboard</a>
                 </div>
                 <h2> ORGANISATION</h2>
                 <div className="sidebar__link">

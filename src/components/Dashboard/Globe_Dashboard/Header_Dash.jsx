@@ -1,12 +1,8 @@
 import React from "react";
 
-
-
-
 function Header_Dash() {
     return (     
-        
-<nav className="navbar" >
+<nav className="navbar " >
                 <div className="nav_icon" onclick="toggleSidebar()">
                     <i className="fa fa-bars" aria-hidden="true"></i>
                 </div>
@@ -19,10 +15,6 @@ function Header_Dash() {
                     </div>
                 </div>
             </nav>
-
-            
-       
-        
         )}
 
 export default Header_Dash;

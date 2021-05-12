@@ -3,7 +3,6 @@ import React from "react";
 
 function Quick_Links() {
     return (  
-<main>
     <div className="main__container">
         <div className="charts">   
             <div className="charts__right">
@@ -46,10 +45,6 @@ function Quick_Links() {
         </div>
      </div>
 </div>
-</main>
-    
-
-
 )}
 
 export default Quick_Links;
