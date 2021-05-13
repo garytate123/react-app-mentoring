@@ -1,5 +1,5 @@
 import React from "react";
-
+import './features-style.css'
 
 function Features() {
   return (
@@ -47,9 +47,9 @@ function Features() {
     <img class="feature-logo" src="/images/logo.png" alt="" />
         <div class="my-3 py-3">
             <h2 class="display-5">ONLINE VIDEO MEETINGS</h2>
-            <p class="lead">One 2 one online video call mentoring sessions. <br /> No need for anyother video
+            <p class="lead">One 2 one online video call mentoring sessions. <br /> No need for another video
              meeting app.
-            Keep everything under one roof. <br /> All meetings are recorded and keeped safe, secure and can
+            Keep everything under one roof. <br /> All meetings are recorded and kept safe, secure and can
             be refereed to at anytime by you or your safe guarding officer.</p>
         </div>
     <div class="bg-light box-shadow mx-auto feature-box">

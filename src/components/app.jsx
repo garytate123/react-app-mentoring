@@ -12,8 +12,7 @@ import Footer from './Footer'
 // Dashboards
 import Mentor_Dash from './Dashboard/Mentor_Dashboard/Mentor_Dash';
 import Org_Dash from './Dashboard/Org_Dashboard/Org_Dash';
-import Mentee_Dash from './Dashboard/Mentee_Dashboard/Mentee_Dash';
-
+import Mentees_Dash from './Dashboard/Mentee_Dashboard/Mentee_Dash';
 
 
 function App() {
@@ -48,13 +47,11 @@ function App() {
                         <Mentor_Dash />
                     </Route>
                     <Route exact path="/Mentee_Dash">
-                        <Mentee_Dash />
+                        <Mentees_Dash />
                     </Route>
                 </Switch>
             </Router>
         </div>
-        
-
     );
 }
 

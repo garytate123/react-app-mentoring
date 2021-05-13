@@ -30,27 +30,26 @@
 body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  
 }
 
-.time_date{
+.time_date {
   margin-right: 50px;
   padding-top: 20px;
-/* padding: 1%; */
+  /* padding: 1%; */
 }
 
-.little-logos{
+.little-logos {
   color: #0093e9;
   width: 30px;
   height: 30px;
 }
-.little-logos-white{
+.little-logos-white {
   width: 30px;
-  height: 30px; 
+  height: 30px;
   background: white;
 }
 
-.create-plus{
+.create-plus {
   color: #0093e9;
   width: 70px;
   height: 70px;
@@ -169,7 +168,7 @@ main {
 }
 
 .main__container {
-  padding: 20px 35px ;
+  padding: 20px 35px;
 }
 
 .main__title {
@@ -182,9 +181,7 @@ main {
   max-height: 100px;
   object-fit: contain;
   margin-right: 5px;
-
 }
-
 
 .main__greeting > h1 {
   font-size: 24px;
@@ -230,7 +227,6 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 0;
-  
 }
 
 .charts__left {
@@ -413,7 +409,7 @@ main {
 }
 
 .active_menu_link a {
-  color: #0093e9;!important;
+  color: #0093e9;
 }
 
 .sidebar__link > a {
@@ -494,11 +490,9 @@ main {
   }
 }
 
-.contacts-box{
+.contacts-box {
   overflow: auto;
   height: 550px;
 }
-
-
 
 /* Dashboard ends here */

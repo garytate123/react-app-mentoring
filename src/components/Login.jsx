@@ -27,7 +27,7 @@ function Login() {
                         <button className="btn btn-primary btn-block">Take me to my dashboard!</button>
                     </div>
                     <div className="forgot-password">
-                        <a href="/Dashboard">Go to DASHBOARD</a>
+                        <a href="/Org_dash">Go to DASHBOARD</a>
                     </div>
                 </form>
             </div>
