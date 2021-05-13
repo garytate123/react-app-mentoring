@@ -48,19 +48,24 @@ footer {
 /* Home page starts here */
 main {
   min-height: calc(100vh - 69px - 74px);
-  padding: 3%;
 }
 .homepage-box {
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
   width: 400px;
   background-color: white;
   border-radius: 20px;
   padding: 2%;
   text-align: center;
+  -webkit-box-shadow: 0px 0px 50px -1px #000000;
+  box-shadow: 0px 0px 50px -1px #000000;
 }
 .homepage-logo {
-  width: 150px;
-  height: 150px;
-  margin: 10%;
+  width: 100px;
+  height: 100px;
+  margin: 5%;
 }
 /* Home page ends here */
