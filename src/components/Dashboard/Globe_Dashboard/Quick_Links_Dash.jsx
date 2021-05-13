@@ -1,21 +1,11 @@
 import React from "react";
 
 
-
-function Main_Dash() {
+function Quick_Links() {
     return (  
     <div className="main__container">
-        <div className="charts">   
-            <div className="charts__left">
-                <div className="charts__left__title">
-                    <div>
-                        <h1>Your To Do List</h1>
-                        <p>You have 11 items on your todo list / Good going, you've cleard you list</p>
-                    </div>
-                        <img src="/images/logo.png" alt="" width="50px"/>
-                </div>   
-            </div>
-            <div className="charts__right">
+        <div className="dashboard-quick-links">   
+            <div className="dashboard-quick-links__right">
                 <div className="charts__right__title">
                     <div>
                         <h1>Quick links</h1>
@@ -24,7 +14,7 @@ function Main_Dash() {
                         <img src="/images/logo.png" alt="" width="50px" />
                 </div>
 
-            <div className="charts__right__cards">
+            <div className="dashboard-quick-links__right__cards">
                 <div className="card1">
                     <h1>Create Meeting</h1>
                     <br />
@@ -53,8 +43,8 @@ function Main_Dash() {
                 </div>
             </div>
         </div>
-        </div>  
-    </div>
+     </div>
+</div>
 )}
 
-export default Main_Dash;
+export default Quick_Links;

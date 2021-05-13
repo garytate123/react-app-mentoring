@@ -2,36 +2,36 @@ import React from "react";
 
 function Cards() {
     return (
-    <div className="main__container">
-        <div className="main__cards">
-            <div className="card">
+    <div className="dashboard-main__container">
+        <div className="dashboard-main__cards">
+            <div className="dashboard-card">
                 <i className="fas fa-users text-red" />
-                    <div className="card_inner">
-                        <p className="text-primary-p">Number of Mentors</p>
+                    <div className="dashboard-card_inner">
+                        <p className="dashboard-text-primary-p">Mentors</p>
                         <span className="font-bold text-title">20</span>
                     </div>
             </div>
 
-            <div className="card">
+            <div className="dashboard-card">
                 <i className="fas fa-users text-green"></i>
-                    <div className="card_inner">
-                        <p className="text-primary-p">Number of Mentees</p>
+                    <div className="dashboard-card_inner">
+                        <p className="dashboard-text-primary-p">Mentees</p>
                         <span className="font-bold text-title">26</span>
                     </div>
             </div>
 
-            <div className="card">
+            <div className="dashboard-card">
                 <i className="fas fa-tasks text-yellow"></i>
-                    <div className="card_inner">
-                        <p className="text-primary-p">Todo List</p>
+                    <div className="dashboard-card_inner">
+                        <p className="dashboard-text-primary-p">Todo List</p>
                         <span className="font-bold text-title">11</span>
                     </div>
             </div>
 
-            <div className="card">
+            <div className="dashboard-card">
                 <i className="far fa-comments text-lightblue"></i>
-                    <div className="card_inner">
-                        <p className="text-primary-p">Messages</p>
+                    <div className="dashboard-card_inner">
+                        <p className="dashboard-text-primary-p">Messages</p>
                         <span className="font-bold text-title">1</span>
                     </div>
             </div>

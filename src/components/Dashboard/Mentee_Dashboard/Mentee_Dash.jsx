@@ -1,7 +1,7 @@
 import React from "react";
-import Header_Dash from "../Globe_Dashboard/Header_Dash";
+import Navbar_Dash from "../Globe_Dashboard/Navbar_Dash";
 import Mentee_SideMenuDash from "./Mentee_SideMenuDash";
-import Main_Dash from "../Globe_Dashboard/Main_Dash";
+import Todo_List_Dash from "../Globe_Dashboard/Todo_List_Dash";
 import Welcome_Dash from "../Globe_Dashboard/Welcome_Dash";
 import Cards from "../Globe_Dashboard/Cards";
 
@@ -10,10 +10,10 @@ function Mentee_Dash() {
     <div>
         <Mentee_SideMenuDash />
             <main>
-                <Header_Dash />
+                <Navbar_Dash />
                 <Welcome_Dash />
                 <Cards />
-                <Main_Dash />
+                <Todo_List_Dash />
             </main>
     </div>
 

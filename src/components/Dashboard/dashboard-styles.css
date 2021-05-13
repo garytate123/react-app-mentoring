@@ -22,22 +22,6 @@
   background: #a5aaad;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-}
-
-.time_date {
-  margin-right: 50px;
-  padding-top: 20px;
-  /* padding: 1%; */
-}
-
 .little-logos {
   color: #0093e9;
   width: 30px;
@@ -55,46 +39,6 @@ body {
   height: 70px;
 }
 
-.text-primary-p {
-  color: #a5aaad;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.text-title {
-  color: #2e4a66;
-  font-size: 3rem;
-}
-
-.text-black {
-  color: rgb(71, 71, 71);
-  font-size: 4rem;
-}
-
-.text-lightblue {
-  color: #469cac;
-  font-size: 3rem;
-}
-
-.text-red {
-  color: #cc3d38;
-  font-size: 3rem;
-}
-
-.text-yellow {
-  color: #a98921;
-  font-size: 3rem;
-}
-
-.text-green {
-  color: #3b9668;
-  font-size: 3rem;
-}
-
 .container {
   display: grid;
   height: 100vh;
@@ -106,7 +50,9 @@ body {
   /* grid-gap: 0.2rem; */
 }
 
-.navbar {
+/* Dashboard Navbar starts here */
+
+.dashboard-navbar {
   background: #ffffff;
   grid-area: nav;
   height: 60px;
@@ -117,16 +63,16 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.nav_icon {
+.dashboard-nav_icon {
   display: none;
 }
 
-.nav_icon > i {
+.dashboard-nav_icon > i {
   font-size: 26px;
   color: #a5aaad;
 }
 
-.navbar__left > a {
+.dashboard-navbar__left > a {
   margin-right: 30px;
   text-decoration: none;
   color: #a5aaad;
@@ -134,24 +80,24 @@ body {
   font-weight: 700;
 }
 
-.navbar__left .active_link {
+.dashboard-navbar__left .active_link {
   color: #265acc;
   border-bottom: 3px solid #265acc;
   padding-bottom: 12px;
 }
 
-.navbar__right {
+.dashboard-navbar__right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navbar__right > a {
+.dashboard-navbar__right > a {
   margin-left: 20px;
   text-decoration: none;
 }
 
-.navbar__right > a > i {
+.dashboard-navbar__right > a > i {
   color: #a5aaad;
   font-size: 16px;
   border-radius: 50px;
@@ -159,49 +105,58 @@ body {
   box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
   padding: 7px;
 }
+.dashboard-time_date {
+  color: #000000;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+/* Dashboard Navbar ends here */
 
-main {
-  background: #f3f4f6;
+/* Welcome_Dash starts here */
+.main-dash {
+  background-color: #ffffff;
   grid-area: main;
   overflow-y: auto;
   height: 100vh;
 }
 
-.main__container {
+.dashboard-main__container {
   padding: 20px 35px;
 }
 
-.main__title {
+.dashboard-main__title {
   display: flex;
   align-items: center;
   padding-left: 2%;
 }
 
-.main__title > img {
+.dashboard-main__title > img {
   max-height: 100px;
   object-fit: contain;
   margin-right: 5px;
 }
 
-.main__greeting > h1 {
+.dashboard-main__greeting > h1 {
   font-size: 24px;
   color: #2e4a66;
 }
 
-.main__greeting > p {
+.dashboard-main__greeting > p {
   font-size: 14px;
   font-weight: 700;
   color: #a5aaad;
 }
+/* Welcome_Dash ends here */
 
-.main__cards {
+/* Dashboard Cards starts here */
+.dashboard-main__cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
   padding: 0 2%;
 }
 
-.card {
+.dashboard-card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -209,52 +164,84 @@ main {
   padding: 15px;
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+  box-shadow: 5px 5px 13px #f0f0f0, -5px -5px 13px #ffffff;
+}
+.dashboard-card:hover {
+  background-color: #f1f1f1;
+  box-shadow: 5px 5px 13px rgb(185, 185, 185), -5px -5px 13px #ffffff;
 }
 
-.card_inner {
+.dashboard-card_inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.card_inner > span {
+.dashboard-card_inner > span {
   font-size: 25px;
 }
+.text-primary-p {
+  color: #a5aaad;
+  font-size: 14px;
+  font-weight: 700;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-title {
+  color: #2e4a66;
+  font-size: 3rem;
+}
+.text-black {
+  color: rgb(71, 71, 71);
+  font-size: 4rem;
+}
+.text-lightblue {
+  color: #469cac;
+  font-size: 3rem;
+}
+.text-red {
+  color: #cc3d38;
+  font-size: 3rem;
+}
+.text-yellow {
+  color: #ffc100;
+  font-size: 3rem;
+}
+.text-green {
+  color: #3b9668;
+  font-size: 3rem;
+}
+/* Dashboard Cards ends here */
 
-.charts {
+/* Dashboard Todo List starts here */
+.dashboard-todo-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 0;
 }
 
-.charts__left {
+.dashboard-todo-list__left {
   padding: 25px;
   border-radius: 5px;
   background: #ffffff;
   box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
 }
 
-.charts__left__title {
+.dashboard-todo-list__left__title {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.charts__left__title > div > h1 {
+.dashboard-todo-list__left__title > h1 {
   font-size: 24px;
   color: #2e4a66;
   margin-bottom: 5px;
 }
 
-.charts__left__title > div > p {
-  font-size: 14px;
-  font-weight: 700;
-  color: #a5aaad;
-}
-
-.charts__left__title > i {
+.dashboard-todo-list__left__title > i {
   color: #ffffff;
   font-size: 20px;
   background: #ffc100;
@@ -265,32 +252,42 @@ main {
   padding: 15px;
 }
 
-.charts__right {
+/* Dashboard Todo List ends here */
+
+/* Quick Links starts here */
+.dashboard-quick-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.dashboard-quick-links__right {
   padding: 25px;
   border-radius: 5px;
   background: #ffffff;
   box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
 }
 
-.charts__right__title {
+.dashboard-quick-links__right__title {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.charts__right__title > div > h1 {
+.dashboard-quick-links__right__title > div > h1 {
   font-size: 24px;
   color: #2e4a66;
   margin-bottom: 5px;
 }
 
-.charts__right__title > div > p {
+.dashboard-quick-links__right__title > div > p {
   font-size: 14px;
   font-weight: 700;
   color: #a5aaad;
 }
 
-.charts__right__title > i {
+.dashboard-quick-links__right__title > i {
   color: #ffffff;
   font-size: 20px;
   background: #39447a;
@@ -301,7 +298,7 @@ main {
   padding: 15px;
 }
 
-.charts__right__cards {
+.dashboard-quick-links__right__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -343,6 +340,7 @@ main {
   border-radius: 5px;
   font-size: 14px;
 }
+/* Quick Links ends here */
 
 /*  SIDEBAR STARTS HERE  */
 

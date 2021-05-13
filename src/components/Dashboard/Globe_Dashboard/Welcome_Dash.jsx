@@ -2,11 +2,11 @@ import React from "react";
 
 function Welcome_Dash() {
     return (
-    <div className="main__container">
-        <div class="main__title">
-                <div class="main__greeting">
+    <div className="dashboard-main__container">
+        <div class="dashboard-main__title">
+                <div class="dashboard-main__greeting">
                     <h1>Hello Organisation</h1>
-                    <p>Welcome to your mentoring online dashboard</p>
+                    <p>Welcome to your online mentoring dashboard</p>
                 </div>
         </div>
     </div>

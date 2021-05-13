@@ -9,6 +9,7 @@ function Signup() {
                     <div className="signup-form-heading">
                         <h2>Online Mentoring</h2>
                         <h3 >Sign up!</h3>
+                        <br />
                     </div>
                     <div className="form-group">
                         <label>First Name</label>
