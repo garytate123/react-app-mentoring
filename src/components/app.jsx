@@ -24,6 +24,7 @@ function App() {
                     <Route exact path="/">
                         <Nav />
                         <Home />
+                        <Footer />
                     </Route>
                     <Route exact path="/Signup">
                         <Nav />

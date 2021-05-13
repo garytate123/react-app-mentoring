@@ -1,12 +1,14 @@
 import React from 'react';
 
+let n = new Date();
+let year = n.getFullYear();
 
 function Footer() {
     return (
-    <footer id="footer" className="footer-1">
-        <p>&#169; 2021 | Created by Gary Tate </p>
-    </footer>
-       
+    
+       <footer >
+           Copyright &copy; {year} | GST Software ltd
+       </footer>
     )
 }
 
