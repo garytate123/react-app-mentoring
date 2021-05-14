@@ -121,7 +121,7 @@
 }
 
 .dashboard-main__container {
-  padding: 20px 35px;
+  padding: 10px 10px;
 }
 
 .dashboard-main__title {
@@ -253,6 +253,51 @@
 }
 
 /* Dashboard Todo List ends here */
+
+/* Dashboard Calendar starts here */
+.dashboard-calendar {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+/* Dashboard Calendar ends here */
+
+/* Dashboard Notebook starts here */
+.dashboard-notebook {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+/* Dashboard NoteBook ends here */
+
+/* Dashboard Contacts starts here */
+.dashboard-contacts {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+/* Dashboard Contacts ends here */
+
+/* Dashboard List of Mentees starts here */
+.dashboard-list-of-mentees {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+/* Dashboard List of Mentees ends here */
+
+/* Dashboard List of Mentors starts here */
+.dashboard-list-of-mentors {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+/* Dashboard List of Mentors ends here */
 
 /* Quick Links starts here */
 .dashboard-quick-links {

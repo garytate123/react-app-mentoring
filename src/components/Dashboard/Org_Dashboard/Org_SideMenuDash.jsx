@@ -21,7 +21,7 @@ function Org_SideMenuDash() {
                 <h2> ORGANISATION</h2>
                 <div className="sidebar__link">
                     <i className="far fa-calendar-alt"></i>
-                    <a href="/dasshboard/organisation/org-calender.html">Calender</a>
+                    <a href="/dasshboard/organisation/org-calender.html">Calendar</a>
                 </div>
                 <div className="sidebar__link">
                     <i className="far fa-sticky-note"></i>
@@ -34,11 +34,11 @@ function Org_SideMenuDash() {
                 
                 <div className="sidebar__link">
                     <i class="fas fa-book-open"></i>
-                    <a href="/dasshboard/organisation/org-mentoring-sessions.html">Mentoring Sessions</a>
+                    <a href="/dashboard/organisation/org-mentoring-sessions.html">Mentoring Sessions</a>
                 </div>
                 <div class="sidebar__link">
                     <i class="fas fa-address-card"></i>
-                    <a href="/dasshboard/organisation/org-contacts.html">Contracts</a>
+                    <a href="/dasshboard/organisation/org-contacts.html">Contacts</a>
                 </div>
                 <div className="sidebar__link">
                     <i className="fas fa-file-alt"></i>

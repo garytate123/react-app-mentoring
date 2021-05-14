@@ -9,6 +9,7 @@ function Cards() {
                     <div className="dashboard-card_inner">
                         <p className="dashboard-text-primary-p">Mentors</p>
                         <span className="font-bold text-title">20</span>
+                        
                     </div>
             </div>
 
@@ -23,7 +24,7 @@ function Cards() {
             <div className="dashboard-card">
                 <i className="fas fa-tasks text-yellow"></i>
                     <div className="dashboard-card_inner">
-                        <p className="dashboard-text-primary-p">Todo List</p>
+                    <p className="dashboard-text-primary-p">ToDo List</p>
                         <span className="font-bold text-title">11</span>
                     </div>
             </div>
