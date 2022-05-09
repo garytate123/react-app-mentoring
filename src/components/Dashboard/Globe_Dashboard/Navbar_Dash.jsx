@@ -1,4 +1,5 @@
 import React from "react";
+let date = new Date().toLocaleDateString();
 
 function Navbar_Dash() {
     return (     
@@ -11,7 +12,7 @@ function Navbar_Dash() {
                 </div>
                 <div className="dashboard-navbar__right">
                     <div className="dashboard-time_date">
-                        <p>Time:<span id="time"></span> &nbsp; &nbsp; Date:<span id="date"></span></p>
+                        <p>Date:<span id="date"> {date}</span></p>
                     </div>
                 </div>
             </nav>
